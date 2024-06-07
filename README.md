@@ -14,8 +14,8 @@ Before you begin, ensure you have the following installed:
 
 ```plaintext
 .
-├── config/                     # Directory for utility scripts
-│   └── dev.tfvars              # Script to generate Terraform backend configuration
+├── config/                     # Directory for environment basedconfiguration
+│   └── dev.tfvars              # Variable definitions specific to the development environment
 ├── scripts/                    # Directory for utility scripts
 │   └── init_backend.sh         # Script to generate Terraform backend configuration
 ├── backend.tf                  # Terraform backend configuration
