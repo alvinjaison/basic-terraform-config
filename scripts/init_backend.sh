@@ -4,7 +4,7 @@
 usage() {
     echo "Usage: $0 -e <environment> -p <project_name> -r <region>"
     echo "Options:"
-    echo "  -r, --region        AWS Region (e.g., eu-west-2, us-east-1)"
+    echo "  -r, --region        AWS Region (e.g., eu-west-2, eu-west-1)"
     echo "  -e, --environment   Environment name (e.g., dev, staging, prod)"
     echo "  -p, --project       Project name (e.g., project1, project2, project3...)"
     exit 1
