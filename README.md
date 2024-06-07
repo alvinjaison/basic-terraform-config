@@ -100,4 +100,4 @@ terraform destroy config/dev.tfvars
 ```
 
 
-Note: Replace <region> <environment> and <project_name> with the appropriate values for your setup.
+Note: Replace *region*, *environment* and *project_name* with the appropriate values for your setup.
