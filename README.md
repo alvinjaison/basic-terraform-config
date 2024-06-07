@@ -41,11 +41,11 @@ Run the generate_backend.sh script:
 ```
 .scripts/init_backend.sh -r <region> -e <environment> -p <project_name>
 ```
--r, --region: AWS Region (e.g., eu-west-2, us-east-1)
+-r, --region: AWS Region (e.g., eu-west-2, eu-west-1)
 
 -e, --environment: Environment name (e.g., dev, staging, prod)
 
--p, --project: Project name (e.g., ohid-nhs-login-iac)
+-p, --project: Project name (e.g., project1, project2)
 
 
 Example:
@@ -62,7 +62,7 @@ terraform {
   backend "s3" {
     bucket         = "tfstate-my-project-eu-west-2-dev"
     key            = "terraform.tfstate"
-    region         = "us-east-1"
+    region         = "eu-west-2"
     dynamodb_table = "terraform-lock-my-project-eu-west-2-dev"
     encrypt        = true
   }

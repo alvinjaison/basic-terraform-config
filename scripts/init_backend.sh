@@ -6,7 +6,7 @@ usage() {
     echo "Options:"
     echo "  -r, --region        AWS Region (e.g., eu-west-2, us-east-1)"
     echo "  -e, --environment   Environment name (e.g., dev, staging, prod)"
-    echo "  -p, --project       Project name (e.g., ohid-nhs-login-iac)"
+    echo "  -p, --project       Project name (e.g., project1, project2, project3...)"
     exit 1
 }
 
