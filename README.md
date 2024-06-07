@@ -34,11 +34,13 @@ The backend configuration for Terraform is necessary to store the state files re
 ## Generate Backend Configuration
 To generate the backend configuration, use the init_backend.sh script located in the scripts directory. This script ensures the necessary S3 bucket and DynamoDB table are already exist.
 
-##Usage
+## Usage
 
 Run the generate_backend.sh script:
 
-```.scripts/generate_backend.sh -r <region> -e <environment> -p <project_name>```
+```
+.scripts/generate_backend.sh -r <region> -e <environment> -p <project_name>
+```
 -r, --region: AWS Region (e.g., eu-west-2, us-east-1)
 -e, --environment: Environment name (e.g., dev, staging, prod)
 -p, --project: Project name (e.g., ohid-nhs-login-iac)
@@ -89,4 +91,4 @@ To destroy the infrastructure managed by Terraform:
 
 
 
-Note: Replace <region>, <environment>, and <project_name> with the appropriate values for your setup.
+Note: Replace <region> <environment> and <project_name> with the appropriate values for your setup.
