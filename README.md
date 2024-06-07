@@ -24,8 +24,8 @@ Before you begin, ensure you have the following installed:
 ├── outputs.tf                  # Output definitions
 ├── locals.tf                   # Local value definitions
 ├── .gitignore                  # Git ignore rules
-└── README.md    # This README file
-
+└── README.md                   # This README file
+```
 
 
 ## Setting Up the Backend
