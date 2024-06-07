@@ -42,7 +42,9 @@ Run the generate_backend.sh script:
 .scripts/generate_backend.sh -r <region> -e <environment> -p <project_name>
 ```
 -r, --region: AWS Region (e.g., eu-west-2, us-east-1)
+
 -e, --environment: Environment name (e.g., dev, staging, prod)
+
 -p, --project: Project name (e.g., ohid-nhs-login-iac)
 
 
