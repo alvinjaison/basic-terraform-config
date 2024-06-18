@@ -56,7 +56,7 @@ terraform plan
 Apply the changes to your infrastructure:
 
 ```
-terraform apply --var-file config/dev.tfvars
+terraform apply --var-file environment/dev.tfvars
 ```
 ### Destroy the Infrastructure
 To destroy the infrastructure managed by Terraform:
@@ -66,5 +66,3 @@ To destroy the infrastructure managed by Terraform:
 terraform destroy config/dev.tfvars
 ```
 
-
-Note: Replace `<region>`, `<environment>` and `<project_name>` with the appropriate values for your setup.
