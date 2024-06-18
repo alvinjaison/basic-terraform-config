@@ -14,73 +14,23 @@ Before you begin, ensure you have the following installed:
 
 ```plaintext
 .
-├── README.md                  # This README file
-├── extended-example           # Directory for extended examples
-│   ├── applications
-│   │   ├── example-application-1
-│   │   │   ├── data.tf
-│   │   │   ├── locals.tf
-│   │   │   ├── main.tf
-│   │   │   ├── tfvars
-│   │   │   │   ├── example-application-1-dev.tfvars
-│   │   │   │   └── example-application-1-test.tfvars
-│   │   │   ├── variables.tf
-│   │   │   └── versions.tf
-│   │   └── example-application-2
-│   │       ├── data.tf
-│   │       ├── locals.tf
-│   │       ├── main.tf
-│   │       ├── tfvars
-│   │       │   ├── example-application-2-dev.tfvars
-│   │       │   └── example-application-2-test.tfvars
-│   │       ├── variables.tf
-│   │       └── versions.tf
-│   ├── core-services
-│   │   ├── example-service-1
-│   │   │   ├── data.tf
-│   │   │   ├── locals.tf
-│   │   │   ├── main.tf
-│   │   │   ├── tfvars
-│   │   │   │   ├── example-service-1-dev.tfvars
-│   │   │   │   ├── example-service-1-prod.tfvars
-│   │   │   │   └── example-service-1-test.tfvars
-│   │   │   ├── variables.tf
-│   │   │   └── versions.tf
-│   │   └── example-service-2
-│   │       ├── data.tf
-│   │       ├── locals.tf
-│   │       ├── main.tf
-│   │       ├── tfvars
-│   │       │   ├── example-service-2-dev.tfvars
-│   │       │   ├── example-service-2-prod.tfvars
-│   │       │   └── example-service-2-test.tfvars
-│   │       ├── variables.tf
-│   │       └── versions.tf
-│   ├── environment            # Environment-specific variable definitions
-│   │   ├── dev.tfvars
-│   │   ├── prod.tfvars
-│   │   └── test.tfvars
-│   └── global.tfvars          # Global variables
-├── module                     # Directory for reusable Terraform modules
-│   ├── README.md
-│   ├── examples
-│   │   ├── main.tf
-│   │   └── provider.tf
-│   ├── main.tf
-│   └── variables.tf
-├── simple-example             # Directory for simple examples
-│   ├── applications
-│   │   └── example-application-1
-│   │       ├── data.tf
-│   │       ├── locals.tf
-│   │       ├── main.tf
-│   │       ├── tfvars
-│   │       │   ├── example-application-1-dev.tfvars
-│   │       │   └── example-application-1-prod.tfvars
-│   │       ├── variables.tf
-│   │       └── versions.tf
-│   ├── environment            # Environment-spec
-
+├── README.md
+├── applications
+│   └── example-application-1
+│       ├── data.tf
+│       ├── locals.tf
+│       ├── main.tf
+│       ├── provider.tf
+│       ├── tfvars
+│       │   ├── example-application-1-dev.tfvars
+│       │   └── example-application-1-prod.tfvars
+│       ├── variables.tf
+│       └── versions.tf
+├── environment
+│   ├── dev.tfvars
+│   └── prod.tfvars
+├── global.tfvars
+└── outputs.tf
 ```
 
 
