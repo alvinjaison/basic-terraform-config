@@ -1,0 +1,27 @@
+# Ignore Terraform .tfstate files, which are used to maintain state.
+*.tfstate
+*.tfstate.backup
+*.tfstate.lock
+
+# Ignore CLI configuration files
+.terraformrc
+terraform.rc
+
+# Ignore .terraform directories
+.terraform/
+
+
+# Ignore crash log files created if Terraform crashes
+crash.log
+
+# Ignore .hcl files containing sensitive information like secrets
+*.hcl
+
+# Ignore .git directories
+.git/
+
+# Ignore .vscode directories
+.vscode/
+
+backend.tf
+
